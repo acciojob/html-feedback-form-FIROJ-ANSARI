@@ -4,22 +4,34 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Feedback Form</title>
 </head>
 
 <body>
+	<h2>Feedback Form</h2>
+	<hr>
+	<br>
+	<form action="#" method="post">
+		
 	<label for="name">Name</label>
-	<input type="text" id="name" minlength="3" maxlength="50">
+	<input type="text" id="name" minlength="3" maxlength="50" required>
 	<br><br>
+		
 	<label for="portfolio">Portfolio</label>
 	<input type="url" id="portfolio" required>
 	<br><br>
+		
 	<label for="favcolor">Favorite Color</label>
 	<input type="color" id="favcolor">
 	<br><br>
+		
 	<label for="likeness">Likeness</label>
-	<input type="range" id="likeness" min="1", max="100">
+	<input type="range" id="likeness" min="1" max="100">
+    <br><br>
+		
+	<button type="submit">Submit</button>
 	
-	
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
